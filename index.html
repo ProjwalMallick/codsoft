@@ -1,73 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    
 <head>
-  <style>
-     ul li{
-      list-style-type:none;
-     }
-  </style>
-  <style>
-    body{
-      background-image: url(pic.jpg);
-      background-repeat:no-repeat ;
-      background-size: cover;
-      position: relative;
-      background-position: center;
-      height: 100vh;
-      margin: 0;
-      padding:0;
-      margin-bottom: 15%;
-      }
-  </style>
-  <style>
-    h2{line-height: 0px;}
-  </style>
-<script src="https://kit.fontawesome.com/f9c49325e6.js" crossorigin="anonymous"></script>
-<link rel = "stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div class="menu-bar">     
-<ul>
-<li>Music</li>
-<li>Band</li>
-<li>Tour</li>
-<li>Journal</li>
-<li>Shop</li>
-<li>Newsletter</li> 
-</ul>
-</div>
-  <div>
-  <ul>
-    <h1 class = "paragraph">THIRTEEN YEARS OF</h1>
-    <h2 class = "paragraph2">ONE DIRECTION</h2>
-  </div>
-</ul>
-<div>
-  <p class = "paragraph5">Welcome to the official Thirteen Years Of One Direction website. Visit for the archived<br>
-  journal posts, past events, band photos, as well as all their music, singles and albums.<br>
-  Celebrate thirteen years of One Direction by rediscovering their journey,<br>
-  right from the very beginning.Keep an eye out for hidden surprises!<br>
-  Relive your favourite 1D memories here and get your own personalised,<br>
-  extra-special anniversary mixtape by connecting to your Spotify,Apple Music,<br>
-  SoundCloud and Deezer!</p>
-</div>
-<ul>
-<div>
-<a href= "#" class = "lets-go-btn">LET'S GO</a>
-</div>
-</ul>
-<footer class = "footer">
-  <div class="icons">
-  <ul>
-    <a style="color: #0ac623;"href="#"><i class="fa-brands fa-spotify"></i></a> 
-    <a style="color: #595b60b5;"href="#"><i class="fa-brands fa-apple"></i></a>
-    <a style="color: #ef4f0bf3;"href="#"><i class="fa-brands fa-soundcloud"></i></a>
-    <a style="color: floralwhite;"href="#"><i class="fa-brands fa-deezer"></i></a>
-  </ul>
-  </div> 
-  <div class="p1">
-  <pre> SYCO MUSIC                                                         &copy;2022 SONY MUSIC ENTERTAINMENT UK LTD                                              PRIVACY AND COOKIE POLICY</pre>
-  </div>
-</footer>
+    <h1>Level 2</h1>
+    <h1>Task 1: <u>CALCULATOR</u></h1>
+    <br/> <br/><hr /> <br /> <br/> 
+
+    <div id="container" class="container">
+        <form name="calculator">
+            <div class="wrapper">
+                    <!-- Input Section -->
+                <div class="InputArea">
+                    <input id="inputBox" type="text" name="userInput" placeholder="0" disabled/>
+                </div>
+                <!-- Button Section -->
+                <div class="buttons">
+
+                    <div class="btnC btnr1">
+                        <input id="ButtonC" type="button" value="C" />
+                    </div>
+                    <div class="btnMod btnr1">
+                        <input id="Button(" type="button" value="(" />
+                    </div>
+                    <div class="btnSign btnr1">
+                        <input id="Button)" type="button" value=")" />
+                    </div>
+                    <div class="btnD btnr1">
+                        <input id="Button/" type="button" value="/" />
+                    </div>
+                    <div class="btn7 btnr2">
+                        <input id="Button7" type="button" value="7" />
+                    </div>
+                    <div class="btn8 btnr2">
+                        <input id="Button8" type="button" value="8" />
+                    </div>
+                    <div class="btn9 btnr2">
+                        <input id="Button9" type="button" value="9" />
+                    </div>
+                    <div class="btnX btnr1">
+                        <input id="Button*" type="button" value="x" />
+                    </div>
+                    <div class="btn4 btnr2">
+                        <input id="Button4" type="button" value="4" />
+                    </div>
+                    <div class="btn5 btnr2">
+                        <input id="Button5" type="button" value="5" />
+                    </div>
+                    <div class="btn6 btnr2">
+                        <input id="Button6" type="button" value="6" />
+                    </div>
+                    <div class="btnM btnr1">
+                        <input id="Button-" type="button" value="-" />
+                    </div>
+                    <div class="btn1 btnr2">
+                        <input id="Button1" type="button" value="1" />
+                    </div>
+                    <div class="btn2 btnr2">
+                        <input id="Button2" type="button" value="2" />
+                    </div>
+                    <div class="btn3 btnr2">
+                        <input id="Button3" type="button" value="3" />
+                    </div>
+                    <div class="btnAdd btnr1">
+                        <input id="Button+" type="button" value="+" />
+                    </div>
+                    <div class="btnDecimal btnr2">
+                        <input id="Button." type="button" value="." />
+                    </div>
+                    <div class="btn0 btnr2">
+                        <input id="Button0" type="button" value="0" />
+                    </div>
+                    <div class="btnBack btnr2">
+                        <input id="Button%" type="button" value="%" />
+                    </div>
+                    <div class="btnEq btnr1">
+                        <input id="Button=" type="button" value="=" />
+                    </div>
+                </div>
+            </div>
+        </form>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    
+    
 </body>
+
 </html>
