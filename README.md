@@ -1,2 +1,2 @@
-ppm-landing-page.netlify.app this is the website link for the landing page
-ppm-calculator-app.netlify.app this is the website link for the calculator
+1) This is the link for the Landing page "https://ppm-landing-page.netlify.app".
+2) This is the link for the calculator "https://ppm-calculator-app.netlify.app"
